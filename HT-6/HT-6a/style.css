@@ -1,0 +1,27 @@
+body a {
+    color: green;
+}
+a:hover {
+    color: red;
+}
+.the_first_way table tr td {
+    padding: 15px;
+    border-right: 5px solid red;
+}
+.the_first_way table tr td:last-child {
+    border-right: 5px solid white;
+}
+/*--------------------------------------------------------*/
+.the_second_way {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+li {
+    display: inline;
+    border-right: 5px solid red;
+    padding: 17px;
+}
+li:nth-last-of-type(1) {
+    border-right: 5px solid white;
+}
