@@ -1,0 +1,36 @@
+.header,.footer {
+    text-align: center;
+    background-color: #000000;
+    color: #f0f8ff;
+    font-size: 40px;
+}
+.sidenav {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.cars {
+    padding: 0px 0px 0px 25px;
+}
+a {
+    text-decoration: none;
+}
+.content {
+    margin-left: 250px;
+}
+h2 {
+    text-align: center;
+}
+.text {
+    text-align: justify;
+}
+a:visited {
+    color: #0000ff;
+}
+a:hover {
+    color: #ff0000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
