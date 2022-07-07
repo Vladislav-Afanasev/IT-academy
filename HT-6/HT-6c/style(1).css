@@ -1,0 +1,35 @@
+h1 {
+    margin: 0px;
+}
+.was_born {
+    color: #008000;
+    margin: 0px;
+}
+.status {
+    color: #ff0000;
+    margin: 0px;
+}
+.link::before {
+    content: "в начало страницы";
+    font-weight: bold;
+    padding-left: 13px;
+    background-image: url(./img/extref.png);
+    background-repeat: no-repeat;
+}
+a::before {
+    content: "Информация";
+    font-weight: bold;
+    padding-left: 13px;
+    background-image: url(./img/extref.png);
+    background-repeat: no-repeat;
+}
+p {
+    color: #0428f3;
+    text-align: justify;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: #0428f3;
+}
+

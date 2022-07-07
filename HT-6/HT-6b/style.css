@@ -1,0 +1,13 @@
+table {
+    border-collapse: collapse;
+}
+tr,td {
+    width: 25px;
+    height: 25px;
+}
+tr:nth-of-type(odd) td:nth-of-type(odd),tr:nth-of-type(even) td:nth-of-type(even)  {
+    background-color: #000000;
+}
+tr:first-child td:nth-child(n),tr:last-child td:nth-child(n),tr:nth-child(n) td:first-child,tr:nth-child(n) td:last-child {
+  background-color: #008000;
+}

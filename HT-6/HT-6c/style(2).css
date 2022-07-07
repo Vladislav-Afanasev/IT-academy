@@ -1,0 +1,24 @@
+h1 {
+    margin: 0px;
+}
+.was_born {
+    color: #008000;
+    margin: 0px;
+}
+.status {
+    color: #ff0000;
+    margin: 0px;
+}
+a {
+    color: #0428f3;
+    font-weight: bold;
+    padding-left: 13px;
+    background-image: url(./img/extref.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+p {
+    color: #0428f3;
+    text-align: justify;
+    margin: 0px;
+}

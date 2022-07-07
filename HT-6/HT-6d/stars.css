@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+}
+.stars:hover {
+    color: red;
+    cursor: pointer;
+}
+.stars .fa-solid:hover ~ .fa-solid:before {
+    color: black;
+}
